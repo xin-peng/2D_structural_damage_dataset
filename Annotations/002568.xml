@@ -1,0 +1,26 @@
+<annotation>
+	<folder>data_fung_done</folder>
+	<filename>001198.jpeg</filename>
+	<path>/home/xin/Desktop/2021Spring/Peer_data/data_fung_done/001198.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>224</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>185</xmin>
+			<ymin>110</ymin>
+			<xmax>196</xmax>
+			<ymax>211</ymax>
+		</bndbox>
+	</object>
+</annotation>

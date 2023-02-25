@@ -1,0 +1,26 @@
+<annotation>
+	<folder>RFS</folder>
+	<filename>P081008600030800.jpg</filename>
+	<path>/home/xin/Desktop/2021Spring/Peer_data/RFS/P081008600030800.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>crack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>768</xmin>
+			<ymin>511</ymin>
+			<xmax>794</xmax>
+			<ymax>610</ymax>
+		</bndbox>
+	</object>
+</annotation>

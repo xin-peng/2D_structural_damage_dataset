@@ -1,0 +1,26 @@
+<annotation>
+	<folder>RFS</folder>
+	<filename>P038004200010000.jpg</filename>
+	<path>/home/xin/Desktop/2021Spring/Peer_data/RFS/P038004200010000.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3840</width>
+		<height>2160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spalling</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>937</xmin>
+			<ymin>719</ymin>
+			<xmax>1656</xmax>
+			<ymax>2046</ymax>
+		</bndbox>
+	</object>
+</annotation>

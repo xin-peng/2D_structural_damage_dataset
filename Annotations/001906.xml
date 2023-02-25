@@ -1,0 +1,26 @@
+<annotation>
+	<folder>RFS</folder>
+	<filename>webwxgetmsgimg (2).jpeg</filename>
+	<path>/home/xin/Desktop/2021Spring/Peer_data/RFS/webwxgetmsgimg (2).jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spalling</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1172</xmin>
+			<ymin>172</ymin>
+			<xmax>2435</xmax>
+			<ymax>3718</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>RFS</folder>
+	<filename>09938.jpg</filename>
+	<path>/home/xin/Desktop/2020Summer/data/YOLO/YOLO_data/RFS/09938.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3840</width>
+		<height>2160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spalling</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1023</xmin>
+			<ymin>7</ymin>
+			<xmax>1768</xmax>
+			<ymax>1159</ymax>
+		</bndbox>
+	</object>
+</annotation>

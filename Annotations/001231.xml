@@ -1,0 +1,26 @@
+<annotation>
+	<folder>spalling</folder>
+	<filename>00006672.jpg</filename>
+	<path>/home/ubuntu/Downloads/spalling/00006672.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>224</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>spalling</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>35</xmin>
+			<ymin>55</ymin>
+			<xmax>211</xmax>
+			<ymax>145</ymax>
+		</bndbox>
+	</object>
+</annotation>

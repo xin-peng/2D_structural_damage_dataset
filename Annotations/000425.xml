@@ -1,0 +1,29 @@
+<annotation>
+    <folder>images</folder>
+    <filename>0743.jpg</filename>
+    <size>
+        <width>256</width>
+        <height>256</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>crack</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>32</xmin>
+            <ymin>83</ymin>
+            <xmax>104</xmax>
+            <ymax>250</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>crack</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>137</xmin>
+            <ymin>2</ymin>
+            <xmax>222</xmax>
+            <ymax>90</ymax>
+        </bndbox>
+    </object>
+</annotation>
