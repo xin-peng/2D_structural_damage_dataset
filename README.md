@@ -1,49 +1,15 @@
 
-github-download
+2D Structural Image Detection Dataset
 ===============
 
-`github-download` downloads commit comments and select issues metadata, saving the raw JSON and writing summary `.csv` files.
+This dataset contains 2700 structural images containing damage: crack and spalling. It is labeled by [Cal Unmanned Research Lab](http://unmanned.berkeley.edu/) from University of California, Berkeley. The source of data base includes public dataset, [SDNET](https://digitalcommons.usu.edu/all_datasets/48/) and [PEER Hub Image Set](https://apps.peer.berkeley.edu/phi-net/), and self-collected data.
 
-Installing
+Guidance
 ----------
 
-Download the `.jar` file [here](/target/github-download-1.0-SNAPSHOT-jar-with-dependencies.jar). It includes all dependencies. You must have the [Java Runtime Environment](http://java.com/en/download/manual.jsp) version 7 or above.
+This dataset labeled crack and spalling with 2D bounding box. [labelImg](https://github.com/heartexlabs/labelImg) is a good tool to visialize or edit images and labels.
 
-Usage
+Acknowledgement
 -----
 
-`github-download` can be run from the command line. It has three required flags:
-
-`-repo`. The full repository name, e.g., `PovertyAction/github-download`.
-
-`-to`. The directory in which to save the metadata. It will be created if it does not exist already.
-
-`-token`. The name of a text file that contains solely a GitHub [OAuth token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/). GitHub will supply you a token, which is a single string. You must copy it to a text file, then specify the name of that file to `-token`.
-
-All together:
-
-```
-java -jar github-download.jar -repo PovertyAction/github-download -token token.txt -to metadata
-```
-
-If the name of the `.jar` file is not `github-download.jar`, use the actual filename in the command above, or rename the file as `github-download.jar`. If the file is not in the current working directory, you will have to specify its path.
-
-Next, specify the metadata to download:
-
-`-issues`. Download select issues metadata.
-
-`-cc`. Download commit comments, including in-line notes.
-
-To download all supported metadata:
-
-```
-java -jar github-download.jar -repo PovertyAction/github-download -token token.txt -to metadata -issues -cc
-```
-
-You may see the following warning message, which is safe to ignore:
-
-```
-SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-```
+This work is supported by Pacific Earthquake Engineering Research (PEER) center project #18081. The inspected concrete columns are supplied by PI Dr. Mohamed Moustafa with the American Concrete Intuition Foundation Concrete Research Council 2019 research grant. The data is collected with the help of Dr. Luna Ngeljaratan and Dr.Mahmoud Aboukifa.
