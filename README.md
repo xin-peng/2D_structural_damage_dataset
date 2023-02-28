@@ -9,6 +9,11 @@ Guidance
 
 This dataset labeled crack and spalling with 2D bounding box. [labelImg](https://github.com/heartexlabs/labelImg) is a good tool to visialize or edit images and labels.
 
+Paper
+----------
+
+Xin Peng, Gaofeng Su, ZhiQiang Chen, Raja Sengupta. Structural Damage Detection, Localization, and Quantification via UAV-based 3D Imaging, 13th International Workshop on Structural Health Monitoring, USA
+
 Acknowledgement
 -----
 
